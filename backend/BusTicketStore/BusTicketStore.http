@@ -1,6 +1,0 @@
-@BusTicketStore_HostAddress = http://localhost:5098
-
-GET {{BusTicketStore_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

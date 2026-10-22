@@ -4,10 +4,17 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>49624871-74e9-4963-b16d-f3ded9642b58</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.18.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\BusTicketStore.Application\BusTicketStore.Application.csproj" />
+    <ProjectReference Include="..\src\BusTicketStore.Infrastructure\BusTicketStore.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
