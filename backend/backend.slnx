@@ -1,3 +1,6 @@
 <Solution>
   <Project Path="BusTicketStore/BusTicketStore.csproj" />
+  <Project Path="src/BusTicketStore.Application/BusTicketStore.Application.csproj" />
+  <Project Path="src/BusTicketStore.Domain/BusTicketStore.Domain.csproj" />
+  <Project Path="src/BusTicketStore.Infrastructure/BusTicketStore.Infrastructure.csproj" />
 </Solution>
