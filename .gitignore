@@ -147,3 +147,63 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# pnpm debug logs
+pnpm-debug.log*
+
+# Vue / Vite build artifacts
+dist-ssr
+*.local
+
+# Editor directories and files
+.idea
+docs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Local tooling (not versioned)
+.atl/
+opencode.json
+
+# .NET / Visual Studio - build output
+[Bb]in/
+[Oo]bj/
+artifacts/
+
+# .NET / Visual Studio - local cache and per-user state
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# .NET - test and coverage results
+TestResults/
+*.received.*
+coverage*.json
+coverage*.xml
+*.coverage
+
+# .NET - local databases (SQLite / SQL Server Express)
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+
+# .NET - local settings overrides and secrets
+appsettings.*.local.json
+*.pfx
+*.snk
+*.key
+
+# Azure Developer CLI local environment
+.azure/
